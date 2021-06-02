@@ -43,7 +43,7 @@ export const coverText = {
 
 export const aboutText = {
   title: 'About Me',
-  content: 'My name is Sateesh Kolluru. I am currently a Software Engineer at Dell. I graduated from Villanova University University in December 2010 with a Masters. in Computer Science. I love Engineering solutions and exploring newest technologies'. 
+  content: 'My name is Sateesh Kolluru. I am currently a Software Engineer at Dell. I graduated from Villanova University University in December 2010 with a Masters. in Computer Science. I love Engineering solutions and exploring newest technologies.' 
 }
 
 export const socialMediaInfo = [
