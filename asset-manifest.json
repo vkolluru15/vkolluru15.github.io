@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-personal-site-boilerplate/static/css/main.3421f191.chunk.css",
-    "main.js": "/react-personal-site-boilerplate/static/js/main.d4ac3e70.chunk.js",
-    "main.js.map": "/react-personal-site-boilerplate/static/js/main.d4ac3e70.chunk.js.map",
-    "runtime-main.js": "/react-personal-site-boilerplate/static/js/runtime-main.b86860b8.js",
-    "runtime-main.js.map": "/react-personal-site-boilerplate/static/js/runtime-main.b86860b8.js.map",
-    "static/js/2.d69f4b9b.chunk.js": "/react-personal-site-boilerplate/static/js/2.d69f4b9b.chunk.js",
-    "static/js/2.d69f4b9b.chunk.js.map": "/react-personal-site-boilerplate/static/js/2.d69f4b9b.chunk.js.map",
-    "static/js/3.ac4e9ecd.chunk.js": "/react-personal-site-boilerplate/static/js/3.ac4e9ecd.chunk.js",
-    "static/js/3.ac4e9ecd.chunk.js.map": "/react-personal-site-boilerplate/static/js/3.ac4e9ecd.chunk.js.map",
-    "index.html": "/react-personal-site-boilerplate/index.html",
-    "static/css/main.3421f191.chunk.css.map": "/react-personal-site-boilerplate/static/css/main.3421f191.chunk.css.map",
-    "static/js/2.d69f4b9b.chunk.js.LICENSE.txt": "/react-personal-site-boilerplate/static/js/2.d69f4b9b.chunk.js.LICENSE.txt"
+    "main.css": "/https://vkolluru15.github.io/static/css/main.3421f191.chunk.css",
+    "main.js": "/https://vkolluru15.github.io/static/js/main.d4ac3e70.chunk.js",
+    "main.js.map": "/https://vkolluru15.github.io/static/js/main.d4ac3e70.chunk.js.map",
+    "runtime-main.js": "/https://vkolluru15.github.io/static/js/runtime-main.f3accdf7.js",
+    "runtime-main.js.map": "/https://vkolluru15.github.io/static/js/runtime-main.f3accdf7.js.map",
+    "static/js/2.d69f4b9b.chunk.js": "/https://vkolluru15.github.io/static/js/2.d69f4b9b.chunk.js",
+    "static/js/2.d69f4b9b.chunk.js.map": "/https://vkolluru15.github.io/static/js/2.d69f4b9b.chunk.js.map",
+    "static/js/3.ac4e9ecd.chunk.js": "/https://vkolluru15.github.io/static/js/3.ac4e9ecd.chunk.js",
+    "static/js/3.ac4e9ecd.chunk.js.map": "/https://vkolluru15.github.io/static/js/3.ac4e9ecd.chunk.js.map",
+    "index.html": "/https://vkolluru15.github.io/index.html",
+    "static/css/main.3421f191.chunk.css.map": "/https://vkolluru15.github.io/static/css/main.3421f191.chunk.css.map",
+    "static/js/2.d69f4b9b.chunk.js.LICENSE.txt": "/https://vkolluru15.github.io/static/js/2.d69f4b9b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b86860b8.js",
+    "static/js/runtime-main.f3accdf7.js",
     "static/js/2.d69f4b9b.chunk.js",
     "static/css/main.3421f191.chunk.css",
     "static/js/main.d4ac3e70.chunk.js"
