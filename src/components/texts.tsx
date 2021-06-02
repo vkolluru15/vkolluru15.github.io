@@ -37,27 +37,23 @@ export interface PortfolioItem {
 }
 
 export const coverText = {
-  mainTitle: 'Hi, my name is Hanming Zeng',
-  subTtile: 'A Software Engineer in New York City'
+  mainTitle: 'Hi, my name is Sateesh Kolluru',
+  subTtile: 'A Software Engineer in Philadelfia'
 };
 
 export const aboutText = {
   title: 'About Me',
-  content: 'My name is Hanming Zeng. I am currently a Software Engineer at Google. I graduated from New York University in December 2017 with a B.A. in Computer Science. I love coding and exploring newest technologies. This site is built with React and ant.design framework.'
+  content: 'My name is Sateesh Kolluru. I am currently a Software Engineer at Dell. I graduated from Villanova University University in December 2010 with a Masters. in Computer Science. I love Engineering solutions and exploring newest technologies. 
 }
 
 export const socialMediaInfo = [
   {
     icon: <GithubFilled/>,
-    url: 'https://github.com/zhm12359'
-  },
-  {
-    icon: <FacebookFilled/>,
-    url: 'https://www.facebook.com/zenghanming'
+    url: 'https://github.com/vkolluru15'
   },
   {
     icon: <LinkedinFilled/>,
-    url: 'https://www.linkedin.com/in/hanming-zeng-75480a9b/'
+    url: 'https://www.linkedin.com/in/sateesh-kolluru-14901411/'
   }
 ];
 
@@ -65,112 +61,83 @@ export const socialMediaInfo = [
 export const resumeData: ResumeData = {
   workExperience: [
     {
-      time: 'May 2019 - Present',
-      position: 'Software Engineer',
-      company: 'Google',
-      location: 'Mountain View, CA / New York, NY',
-      companyUrl: 'https://about.google/',
+      time: 'November 2017 - Present',
+      position: 'Sr Principal Engineer',
+      company: 'Dell',
+      location: 'Chesterbrook, PA',
+      companyUrl: 'https://boomi.com/',
       details: [
-        'Develop internal tools and infrastractures',
+        'Big Data Engineering at Boomi, building data pipelines, transformations and dev ops on data models.',
+        "Built datalake for the company from the ground zero using S3, Apache kafka, Apache flink, Apachespark.",
+        "Built data ingestion pipelines continuously ingest around 100GB of data to data lake every day using Apache flink and Apache kafka.",
+        "Managed Kubernetes to host the ingestion jobs to run on.",
+        "Devops engineering to create playbooks using ansible and cloudformation to create aws resources needed.",
       ]
     },
     {
-      time: 'January 2018 - April 2019',
-      position: 'Software Engineer',
-      company: 'Equityzen',
-      location: 'New York, NY',
-      companyUrl: 'https://equityzen.com',
+      time: 'April 2017 - September 2017',
+      position: 'Principal Engineer',
+      company: 'Vertex Inc',
+      location: 'King of Prussia, PA',
+      companyUrl: 'https://www.vertexinc.com/',
       details: [
-        'Full stack development for internal and external Django web application that manages private stock market deals',
-        'Lead frontend engineering, integrate ReactJs and Redux into existing project and write guiding documentations ',
-        'Code review and offer constructive suggestions to teammates to boost up program performance, test coverage and SEO',
-        'Manage product deploy via AWS and ensure the workflow adheres to Agile methodology across the entire team'
+        'Full stack development for support the sales and consumer tax software that is used to calculate the taxes for respective purposes by the customers',
+        'Migrated monolithic app to independent microservices to facilitate smooth transition from Flex to React JS',
+        'Code review and offer constructive suggestions to teammates to boost up program performance, test coverage and SEO'        
       ]
     },
     {
-      time: 'May 2016 - January 2018',
-      position: 'Software Engineer',
-      location: 'New York, NY',
-      company: 'New York University, Operations Technology Support and Services',
-      companyUrl: 'https://www.nyu.edu/life/campus-resources/facilities-operations-maintenance.html',
+      time: 'October 2014 - April 2017',
+      position: 'Senior Software Engineer',
+      location: 'Conshohocken, PA',
+      company: 'Morgan Stanley',
+      companyUrl: 'https://www.morganstanley.com/',
       details: [
-        'Program and maintain web applications in ASP.NET (C#) MVC framework for NYU Treasury Department ',
-        'Set up Front End page using React-Redux and document the use patterns for React Components on Confluence',
-        'Design data models in C# Entity Framework, establish database in MSSQL server and create Api Endpoints',
-        'Review pull request from coworkers, comment on potential logic error and help reduce time and space complexity'
+        'Built data ingestion pipeline from the file system and oracle database using java based application.',
+        'Developed transformations using R to transform the raw ingested data and feed it to the linear regression model to predict the values.',
+        'Full stack development for internal reporting system.'        
       ]
     },
     {
-      time: 'May 2017 - August 2017',
-      position: 'Full Stack Developer',
-      company: 'Credit Suisse',
-      location: 'New York, NY',
-      companyUrl: 'https://www.credit-suisse.com/us/en.html',
+      time: 'January 2012 - September 2014',
+      position: 'Senior Software Engineer',
+      company: 'Amerisource Bergen Inc',
+      location: 'Chesterbrook, PA',
+      companyUrl: 'https://www.amerisourcebergen.com/',
       details: [
-        'Investigated code efficiency and boosted productivity by getting rid of redundant database calls in legacy projects',
-        'Calculated latency and throughput of a pricer application in Java Spring framework and logged unusual behaviors',
-        'Developed a web application for fine art backed loan transaction using Blockchain (Distributed Ledger) Technology',
+        'Full stack development for internal tools required by pricing team.',
+        'Vendavo configuration engineer to implement Vendavo pricing suite.'        
       ]
     }
   ],
   additionalExperience:[
     {
-      time: 'January 2016 - May 2016',
-      position: 'Data Analyst Intern',
-      company: 'Amass Insights, Inc.',
-      location: 'New York, NY',
-      companyUrl: 'https://amassinsights.com/',
+      time: 'April 2011 - December 2011',
+      position: 'Software Engineer',
+      company: 'Vanguard',
+      location: 'Malvern, PA',
+      companyUrl: 'https://investor.vanguard.com/corporate-portal/',
       details: [
-        'Collected, analyzed, and delivered unique data to investors working with 1600 investment and technology companies',
-        'Researched on potential data partners and recorded information of hundred of companies in 12 different industries',
+        'Fullstack development of a web application that serves the 401k accounts of retail/Institutional customers.',
+        'Developed a cold call application that integrates CRm and Business intelligence application.'
       ]
     },
-    {
-      time: ' September 2015 - December 2018',
-      position: 'Teaching Assistant',
-      company: 'New York University',
-      location: 'New York, NY',
-      companyUrl: 'http://nyu.edu',
-      details: [
-        'Facilitate 10 in-class coding workshops with professors to deepen students’ understanding in Python programming',
-        'Grade 300+ algorithm homework, aid 100+ students with programming exercises and prepare them for examinations',
-      ]
-    },
-    {
-      time: ' September 2015 - December 2018',
-      position: 'Mentor',
-      company: 'Phi Chi Theta Beta National Business Fraternity, New York Beta Chapter ',
-      location: 'New York, NY',
-      companyUrl: 'http://nyu.edu',
-      details: [
-        'Coach members python programming, hold workshops in web design and mentor pledges in business etiquette',
-      ]
-    },
-    {
-      time: ' March 2013 - June 2013',
-      position: 'Beta Tester and Teaching Assistant',
-      company: 'Enactus Computer Training Program for the Blind',
-      location: 'Hangzhou, China',
-      companyUrl: 'http://nyu.edu',
-      details: [
-        'Reported the deficiency of Braille Screen Reader during instruction, customized the need for blind participants',
-      ]
-    },
+    
   ],
 
   technicalSkills: {
-    'Languages': ['Javascript', 'Typescript', 'Python', 'Java', 'C#', 'Kotlin', 'HTML & CSS'],
-    'Web Frameworks': ['Django', 'Flask', 'Spring', '.NET', 'React'],
-    'Database': ['SQL Server', 'Postgres SQL', 'MongoDB'],
-    'Infrastracture': ['Git', 'Subversion', 'AWS', 'Google Cloud'],
+    'Languages': ['Javascript', 'R', 'Python', 'Java',  'PL/SQL', 'HTML & CSS'],
+    'Web Frameworks': ['Hibernate', 'Flask', 'Spring', '.NET', 'React'],
+    'Database': ['Oracle', 'Postgres SQL', 'My SQL', "Dynamo DB"],
+    'Infrastracture': ['Git', 'Kubernetes', 'AWS' ],
   },
 
   educations: [
     {
-      time: 'September 2014 - December 2017',
-      school: 'New York University',
-      major: 'Bachelor of Arts in Computer Science',
-      gpa: '3.86/4.00',
+      time: 'September 2008 - December 2010',
+      school: 'Villanova University',
+      major: 'Masters in Computer Science',
+      gpa: '3.83/4.00',
       relevantCoursework: ['Full Stack Web Development', 'Data Structures', 'Algorithms', 'Statistics', 'Operating System', 'Object Oriented Programming']
     }
   ]
